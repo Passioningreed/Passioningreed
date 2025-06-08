@@ -1,0 +1,81 @@
+body{background-color: gray;
+     margin: 0;}
+
+    .div_body{display:  flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;}
+
+
+        /* CSS DA SIDE */
+
+.Side {
+    display: none;
+    position: sticky;
+    height: 100vh;
+    width: 10vw;
+    margin: 0px 0px 0px 0px;
+    background-color: aliceblue;
+    border-left: 2px;
+    
+}
+
+.btn_side{
+    background-color: aliceblue;
+        border-color: black;
+         cursor: pointer; 
+           position: fixed;
+            top: 0px; 
+            left: 0px;
+            padding-left: 0%;
+            border-left: 0px;
+            border-top: 0px;
+}
+
+
+.btn_side img{
+    height: 35px;
+    width: 35px;
+}
+
+/* CSS DO BODY */
+
+.css_bod{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    position: fixed;
+        top: 30vh;
+    background-color: aliceblue;
+    border: 3px;
+    border-radius: 4px;
+        
+}
+
+
+
+/* censura */
+
+
+.alerta{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.alerta .censura{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    transition: filter 0.3s ease;
+    font-size: 0px;
+}
+.censura.semcensura{
+    background-color: aliceblue;
+    border: none;
+    font-size: 20px;
+}
